@@ -55,3 +55,26 @@ console.log('' == false);
 console.log('' === false);
 console.log(null == undefined);
 console.log(null === undefined);
+
+const name = 'df';
+if (name == 'ellie') {
+    console.log('Welcome. Ellie!');
+} else if (name == 'coder') {
+    console.log('You are amazing coder');
+}else{
+    console.log('unknown');
+}
+
+console.log(name === 'ellie'?'yes':'no');
+
+const browser = 'IE';
+switch (browser) {
+    case 'IE':
+        console.log('go away!');
+        break;
+}
+let i = 3;
+while (i>0) {
+    console.log('while: ${i}');
+    i--;
+}
